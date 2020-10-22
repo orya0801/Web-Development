@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #303030;
+    background-color: white;
+}
+
+p, ul, li, h1{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #303030;
+    line-height: 36px;
+}
+
+.header__top{
+    padding: 15px 0;
+}
+
+.header__top a ,
+.header__top:active a,
+.header__top:visited a,
+.header__top:hover a{
+    color: white;
+    text-decoration: none;
+}
+
+.header__top ul{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.header__top ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.last_word{
+    color:greenyellow;
+}
+
+.header__btn{
+    background-color: green;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.header__btn:active{
+    background-color: #9a9b9b;
+}
+
+.about__inner{
+    padding: 40px 0 ;
+}
+
+.about__header,
+.about_share__header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+}
+
+.about__header .last_word{
+    color: green;
+}
+
+.about__content{
+    padding-top: 20px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__inner_text{
+    max-width: 680px;
+    line-height: 28px;
+
+}
+
+.about__inner_text ul{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.about__inner_text ul li{
+    margin-top: 10px;
+}
+
+.about_share{
+    background: #303030;
+    color: white;
+}
+
+.about_share__inner{
+    padding-top: 40px;
+    min-height: 400px;
+    background-image: url(../img/background_about_share.png);
+    background-size: 700px;
+	background-repeat: no-repeat;
+    background-position: bottom 0 right -80px;
+}
+
+.about_share__content{
+    text-align: left;
+    line-height: 28px;
+    padding-top: 30px;
+    margin-left: 50px;
+    max-width: 680px;
+}
+
+.achievments{
+    padding: 40px 0;
+}
+
+.achievments__header{
+    text-align: center;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.achievments__content{
+    padding-top: 60px;
+    margin: 0 50px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;  
+    color: green;
+}
+
+.achievments__content ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+}
+
+.achievments__content ul li{
+    display: block;
+    text-align: center;
+}
+
+.achievments__content ul>li>span{
+    font-size: 32px;
+    line-height: 32px; 
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Круглый витраж</h2>
+        <div class="field">
+            <label for="parameter">Тип параметра:</label>
+            <select class="parameter">
+                <option value="None">Выберите параметр</option>
+                <option value="Radius">Радиус</option>
+                <option value="diameter">Диаметр</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="value">Значение параметра:</label>
+            <input name="value" type="number" class="value">
+        </div>
+        <div class="field">
+            <input type="button" class="button" value="Рассчитать площадь"></button>
+        </div>
+    </form>
+    <div class="result">
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

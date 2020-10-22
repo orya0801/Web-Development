@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 500px;
+}
+
+form{
+    min-height: 150px;
+}
+
+.field,
+.result{
+    display: block;
+    margin: 20px 0;
+}
+
+select,
+input{
+    float: right;
+    width: 200px;
+}
+
+.button{
+    float: left;
+    min-width: 140px;
+}
