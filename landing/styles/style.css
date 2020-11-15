@@ -28,8 +28,17 @@ header{
     line-height: 36px;
 }
 
-.header__top{
+.header{
     padding: 15px 0;
+    position: relative;
+}
+
+.header__lang{
+    position: absolute;
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    top: 30%;
+    right: 40px;
 }
 
 .header__top a ,
@@ -54,6 +63,13 @@ header{
     font-size: 24px;
     font-weight: bold;
 }
+.header__bottom{
+    background-color: green;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    height: 50px;
+}
 
 .last_word{
     color:greenyellow;
@@ -75,6 +91,11 @@ header{
 
 .about__header,
 .about_share__header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+}
+.for_leaders__header{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     line-height: 36px;
@@ -111,6 +132,10 @@ header{
     background: #303030;
     color: white;
 }
+.for_leaders{
+    background: #303030;
+    color: white;
+}
 
 .about_share__inner{
     padding-top: 40px;
@@ -121,12 +146,27 @@ header{
     background-position: bottom 0 right -80px;
 }
 
+.for_leaders__inner{
+    padding-top: 40px;
+    min-height: 400px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right -80px;
+}
 .about_share__content{
     text-align: left;
     line-height: 28px;
     padding-top: 30px;
     margin-left: 50px;
     max-width: 680px;
+}
+
+.for_leaders__content{
+    text-align: left;
+    line-height: 28px;
+    padding-top: 30px;
+    margin-left: 50px;
+    max-width: 1100px;
 }
 
 .achievments{
@@ -167,4 +207,50 @@ header{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #303030;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.footer__inner{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner_name{
+    font-size: 28px;
+}
+
+.footer__inner_contacts ul{
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.footer__inner_contacts ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.footer__inner_contacts a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.footer__inner_contacts a:hover{
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
 }
