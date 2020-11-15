@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>MQFLX</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <img src="img/logo.jpg" alt="logo" class="header__top-logo"/>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#advantages">Преимущества</a></li>
+                            <li><a href="services.html#">Услуги</a></li>                        
+                            <li><a href="services.html#FAQ">FAQ</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="telephone">
+                        +7-921-320-15-86
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </header>
+    <section class="main">
+        <div class="main__inner">          
+          <div class="about__inner-image"></div>
+            <div class="about__inner-content">
+                <div class="about__title">
+                    Контакты
+                </div>
+                <div>
+                    
+                </div>
+                <div class="about__text">
+                    telegram:@mql.fxик <br>
+                    whats app: +7 995 595 9002<br>
+
+                    contact@mqlfx.ru <br>
+                    +7 995 595 9002 <br>
+                </div>
+                <h1>
+                    Сделать заказ
+                </h1>
+                <div class="wrap">
+                    <form method="POST" onsubmit="confirmSend(this)" name="orderform">
+                      <div class="row">
+                        <input type="text" name="name" id="text" placeholder="Имя" class="row_input" required>
+                      </div>
+                      <div class="row">
+                        <input type="email" name="email" id="email" placeholder="Эл. почта" class="row_input" required>
+                      </div>
+                      <div class="row">
+                        <textarea name="message" name="message" id="message" placeholder="Добавьте сообщение..." class="row_input" cols="30" rows="5" required></textarea>
+                      </div>
+                      <div class="row">
+                          <input type="submit">
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
